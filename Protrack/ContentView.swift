@@ -10,10 +10,29 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("This is MJ woohoooo")
+            Text("Protrack")
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+                .foregroundColor(Color.green)
+            HStack{
+                Image(systemName: "apple.logo")
+                    .padding(/*@START_MENU_TOKEN@*/[.top, .leading, .bottom]/*@END_MENU_TOKEN@*/)
+                    .imageScale(.large)
+                    .foregroundColor(.orange)
+                Image(systemName: "plus")
+                    .padding(.vertical)
+                    .imageScale(.large)
+                    .foregroundColor(.orange)
+                Image(systemName: "timer")
+                    .padding(/*@START_MENU_TOKEN@*/[.top, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
+                    .imageScale(.large)
+                    .foregroundColor(.orange)
+            }
+            HStack{
+                Text("Enter Item Name:")
+                    .padding(.leading)
+                TextField("Item Name", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+            }
         }
         .padding()
     }
