@@ -1,5 +1,5 @@
 //
-//  FoodLibrary.swift
+//  FoodLibPage4.swift
 //  Protrack
 //
 //  Created by Medha Sarkar on 1/14/23.
@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-
-struct FoodLibrary: View {
+struct FoodLibPage4: View {
     var body: some View {
         VStack {
             Image("topk")
@@ -21,7 +20,6 @@ struct FoodLibrary: View {
                 .foregroundColor(Color.black)
                 .multilineTextAlignment(.center)
             Spacer()
-            //START OF BUTTONS
             HStack{
                 VStack {
                     HStack {
@@ -29,7 +27,7 @@ struct FoodLibrary: View {
                         Button(action: {
                             print("button pressed")
                         }) {
-                            Image("apple")
+                            Image("onion")
                                 .resizable()
                                 .frame(width: 85.0, height: 85.0)
                         }
@@ -38,7 +36,7 @@ struct FoodLibrary: View {
                         Button(action: {
                             print("button pressed")
                         }) {
-                            Image("orange")
+                            Image("cucumber")
                                 .resizable()
                                 .frame(width: 85.0, height: 85.0)
                         }
@@ -49,7 +47,7 @@ struct FoodLibrary: View {
                         Button(action: {
                             print("button pressed")
                         }) {
-                            Image("banana")
+                            Image("avacado")
                                 .resizable()
                                 .frame(width: 85.0, height: 85.0)
                         }
@@ -58,13 +56,13 @@ struct FoodLibrary: View {
                         Button(action: {
                             print("button pressed")
                         }) {
-                            Image("grape")
+                            Image("brocolli")
                                 .resizable()
                                 .frame(width: 85.0, height: 85.0)
                         }
                         Spacer()
-                    
-                }
+                        
+                    }
                     
                 }
                 
@@ -82,14 +80,12 @@ struct FoodLibrary: View {
             Spacer()
             Spacer()
             
-            
         }
-        
     }
 }
 
-struct FoodLibrary_Previews: PreviewProvider {
+struct FoodLibPage4_Previews: PreviewProvider {
     static var previews: some View {
-        FoodLibrary()
+        FoodLibPage4()
     }
 }

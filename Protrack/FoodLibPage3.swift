@@ -1,5 +1,5 @@
 //
-//  FoodLibrary.swift
+//  FoodLibPage3.swift
 //  Protrack
 //
 //  Created by Medha Sarkar on 1/14/23.
@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-
-struct FoodLibrary: View {
+struct FoodLibPage3: View {
     var body: some View {
         VStack {
             Image("topk")
@@ -21,7 +20,6 @@ struct FoodLibrary: View {
                 .foregroundColor(Color.black)
                 .multilineTextAlignment(.center)
             Spacer()
-            //START OF BUTTONS
             HStack{
                 VStack {
                     HStack {
@@ -29,7 +27,7 @@ struct FoodLibrary: View {
                         Button(action: {
                             print("button pressed")
                         }) {
-                            Image("apple")
+                            Image("kiwi")
                                 .resizable()
                                 .frame(width: 85.0, height: 85.0)
                         }
@@ -38,18 +36,19 @@ struct FoodLibrary: View {
                         Button(action: {
                             print("button pressed")
                         }) {
-                            Image("orange")
+                            Image("tomato")
                                 .resizable()
                                 .frame(width: 85.0, height: 85.0)
                         }
                         Spacer()
                     }
+                    
                     HStack {
                         Spacer()
                         Button(action: {
                             print("button pressed")
                         }) {
-                            Image("banana")
+                            Image("lemon")
                                 .resizable()
                                 .frame(width: 85.0, height: 85.0)
                         }
@@ -58,13 +57,13 @@ struct FoodLibrary: View {
                         Button(action: {
                             print("button pressed")
                         }) {
-                            Image("grape")
+                            Image("carrot")
                                 .resizable()
                                 .frame(width: 85.0, height: 85.0)
                         }
                         Spacer()
-                    
-                }
+                        
+                    }
                     
                 }
                 
@@ -82,14 +81,13 @@ struct FoodLibrary: View {
             Spacer()
             Spacer()
             
-            
         }
-        
     }
 }
 
-struct FoodLibrary_Previews: PreviewProvider {
+
+struct FoodLibPage3_Previews: PreviewProvider {
     static var previews: some View {
-        FoodLibrary()
+        FoodLibPage3()
     }
 }

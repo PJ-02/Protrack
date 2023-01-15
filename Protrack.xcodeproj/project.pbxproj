@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4713516F29736DEB0044E8A4 /* FoodLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713516E29736DEB0044E8A4 /* FoodLibrary.swift */; };
+		47A5C245297389510004F2FA /* FoodLibPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5C244297389510004F2FA /* FoodLibPage1.swift */; };
+		47A5C24729738D990004F2FA /* FoodLibPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5C24629738D980004F2FA /* FoodLibPage2.swift */; };
+		47A5C24929738DAE0004F2FA /* FoodLibPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5C24829738DAE0004F2FA /* FoodLibPage3.swift */; };
+		47A5C24B29738E000004F2FA /* FoodLibPage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5C24A29738E000004F2FA /* FoodLibPage4.swift */; };
 		AF5FF2D329734D0A00B8741E /* ProtrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2D229734D0A00B8741E /* ProtrackApp.swift */; };
 		AF5FF2D529734D0A00B8741E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2D429734D0A00B8741E /* ContentView.swift */; };
 		AF5FF2D729734D0C00B8741E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FF2D629734D0C00B8741E /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		4713516E29736DEB0044E8A4 /* FoodLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLibrary.swift; sourceTree = "<group>"; };
+		47A5C244297389510004F2FA /* FoodLibPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLibPage1.swift; sourceTree = "<group>"; };
+		47A5C24629738D980004F2FA /* FoodLibPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLibPage2.swift; sourceTree = "<group>"; };
+		47A5C24829738DAE0004F2FA /* FoodLibPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLibPage3.swift; sourceTree = "<group>"; };
+		47A5C24A29738E000004F2FA /* FoodLibPage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLibPage4.swift; sourceTree = "<group>"; };
 		AF5FF2CF29734D0A00B8741E /* Protrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5FF2D229734D0A00B8741E /* ProtrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtrackApp.swift; sourceTree = "<group>"; };
 		AF5FF2D429734D0A00B8741E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +107,10 @@
 				AF5FF2D229734D0A00B8741E /* ProtrackApp.swift */,
 				AF5FF2D429734D0A00B8741E /* ContentView.swift */,
 				4713516E29736DEB0044E8A4 /* FoodLibrary.swift */,
+				47A5C24A29738E000004F2FA /* FoodLibPage4.swift */,
+				47A5C24629738D980004F2FA /* FoodLibPage2.swift */,
+				47A5C24829738DAE0004F2FA /* FoodLibPage3.swift */,
+				47A5C244297389510004F2FA /* FoodLibPage1.swift */,
 				AF5FF2D629734D0C00B8741E /* Assets.xcassets */,
 				AF5FF2D829734D0C00B8741E /* Preview Content */,
 			);
@@ -260,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A5C24929738DAE0004F2FA /* FoodLibPage3.swift in Sources */,
+				47A5C24729738D990004F2FA /* FoodLibPage2.swift in Sources */,
 				AF5FF2D529734D0A00B8741E /* ContentView.swift in Sources */,
 				AF5FF2D329734D0A00B8741E /* ProtrackApp.swift in Sources */,
+				47A5C24B29738E000004F2FA /* FoodLibPage4.swift in Sources */,
+				47A5C245297389510004F2FA /* FoodLibPage1.swift in Sources */,
 				4713516F29736DEB0044E8A4 /* FoodLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
