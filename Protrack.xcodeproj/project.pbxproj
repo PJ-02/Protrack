@@ -14,6 +14,7 @@
 		AF5FF2E429734D0C00B8741E /* ProtrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2E329734D0C00B8741E /* ProtrackTests.swift */; };
 		AF5FF2EE29734D0C00B8741E /* ProtrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2ED29734D0C00B8741E /* ProtrackUITests.swift */; };
 		AF5FF2F029734D0C00B8741E /* ProtrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2EF29734D0C00B8741E /* ProtrackUITestsLaunchTests.swift */; };
+		AF5FF2FF29736ED000B8741E /* ExpirationInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2FE29736ED000B8741E /* ExpirationInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AF5FF2E929734D0C00B8741E /* ProtrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5FF2ED29734D0C00B8741E /* ProtrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtrackUITests.swift; sourceTree = "<group>"; };
 		AF5FF2EF29734D0C00B8741E /* ProtrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF5FF2FE29736ED000B8741E /* ExpirationInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirationInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				AF5FF2D229734D0A00B8741E /* ProtrackApp.swift */,
 				AF5FF2D429734D0A00B8741E /* ContentView.swift */,
+				AF5FF2FE29736ED000B8741E /* ExpirationInput.swift */,
 				AF5FF2D629734D0C00B8741E /* Assets.xcassets */,
 				AF5FF2D829734D0C00B8741E /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				AF5FF2D529734D0A00B8741E /* ContentView.swift in Sources */,
 				AF5FF2D329734D0A00B8741E /* ProtrackApp.swift in Sources */,
+				AF5FF2FF29736ED000B8741E /* ExpirationInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
