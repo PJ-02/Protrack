@@ -33,6 +33,64 @@ struct ContentView: View {
                     .padding(.leading)
                 TextField("Item Name", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
             }
+            List {
+                Button(action: {
+                    print("button pressed")
+                }) {
+                    Image("apple")
+                        .resizable()
+                        .frame(width: 85.0, height: 85.0)
+                }
+                Button(action: {
+                    print("button pressed")
+                }) {
+                    Image("orange")
+                        .resizable()
+                        .frame(width: 85.0, height: 85.0)
+                }
+                Button(action: {
+                    print("button pressed")
+                }) {
+                    Image("banana")
+                        .resizable()
+                        .frame(width: 85.0, height: 85.0)
+                }
+                Button(action: {
+                    print("button pressed")
+                }) {
+                    Image("grape")
+                        .resizable()
+                        .frame(width: 85.0, height: 85.0)
+                }
+                Button(action: {
+                    print("button pressed")
+                }) {
+                    Image("onion")
+                        .resizable()
+                        .frame(width: 85.0, height: 85.0)
+                }
+                Button(action: {
+                    print("button pressed")
+                }) {
+                    Image("cucumber")
+                        .resizable()
+                        .frame(width: 85.0, height: 85.0)
+                }
+                Button(action: {
+                    print("button pressed")
+                }) {
+                    Image("avacado")
+                        .resizable()
+                        .frame(width: 85.0, height: 85.0)
+                }
+                Button(action: {
+                    print("button pressed")
+                }) {
+                    Image("brocolli")
+                        .resizable()
+                        .frame(width: 85.0, height: 85.0)
+                }
+            }
         }
         .padding()
     }
