@@ -13,13 +13,63 @@ class Food {
     var expirationDate: String
     var lifeTime: Int //in days
 
-    func addFood()
-    func setName() //not using for demo
+    func addFood() /*Not using for demo*/
+    func setName() /*Not using for demo*/
 
-    func getPurchaseDate()
-    func getExpirationDate()
+    func setPurchaseDate()
+    func setExpirationDate()
 
-    func calcCountdown()
+    func calcCountdown() //returns integer, for number of days
+
+}
+
+//Predetermine Fruit objects for demo (and future food compendium)
+var apple = Food()
+var orange = Food()
+var banana = Food()
+var grape = Food()
+var blueberry = Food()
+var strawberry = Food()
+var cherry = Food()
+var peach = Food()
+var pear = Food()
+var pineapple = Food()
+var watermelon = Food()
+var melon = Food()
+var kiwi = Food()
+var lemon = Food()
+var avocado = Food()
+
+//Predetermined Veggie objects for demo (and future food compendium)
+var tomato = Food()
+var onion = Food()
+var carrot = Food()
+var cucumber = Food()
+var brocolli = Food()
 
 
+func setPurchaseDate (datePurchased: Date, foodToUpdate: String) {
+    foodToUpdate.purchaseDate = datePurchased
+}
+
+func setExpirationDate (dateExpires: Date, foodToUpdate: String) {
+    foodToUpdate.expirationDate = dateExpires
+}
+
+
+func calcCountdown(datePurchased: Date, dateExpires: Date) -> Int {
+    var expireCountdown: Int
+    expireCountdown = timeIntervalSince(datePurchased) -> TimeInterval
+
+    if (expireCountdown >= 0) {
+        return expireCountdown
+    }else{
+        return 1
+    }
+    
+}
+
+
+func setCountdown(datePurchased: Date, dateExpires: Date, foodToUpdate: String) {
+    foodToUpdate.lifeTime = calcCountdown(datePurchased, dateExpires)
 }
