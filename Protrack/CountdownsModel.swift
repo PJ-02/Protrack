@@ -49,7 +49,7 @@ extension Countdowns{
             let seconds = calendar.component(.second, from: date)
             
             self.days = Float(days)
-            self.time = String(format:"%d:%02d:%03d:%04d",days,hours,minutes,seconds)
+            self.time = String(format:"%d:%2d:%3d:%4d",days,hours,minutes,seconds)
         }
     }
 }
