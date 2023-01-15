@@ -22,6 +22,7 @@
 		AF77A2652973FD33001B8956 /* FoodClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77A2642973FD33001B8956 /* FoodClass.swift */; };
 		AF77A2692974142F001B8956 /* Countdowns.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77A2682974142F001B8956 /* Countdowns.swift */; };
 		AF77A26B2974149C001B8956 /* CountdownsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77A26A2974149C001B8956 /* CountdownsModel.swift */; };
+		AF77A26D29741D6A001B8956 /* DaysFromFoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77A26C29741D6A001B8956 /* DaysFromFoodItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		AF77A2642973FD33001B8956 /* FoodClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClass.swift; sourceTree = "<group>"; };
 		AF77A2682974142F001B8956 /* Countdowns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdowns.swift; sourceTree = "<group>"; };
 		AF77A26A2974149C001B8956 /* CountdownsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownsModel.swift; sourceTree = "<group>"; };
+		AF77A26C29741D6A001B8956 /* DaysFromFoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysFromFoodItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				AF5FF2D229734D0A00B8741E /* ProtrackApp.swift */,
 				AF5FF2D429734D0A00B8741E /* ContentView.swift */,
 				AF77A2682974142F001B8956 /* Countdowns.swift */,
+				AF77A26C29741D6A001B8956 /* DaysFromFoodItem.swift */,
 				AF77A26A2974149C001B8956 /* CountdownsModel.swift */,
 				4713516E29736DEB0044E8A4 /* FoodLibrary.swift */,
 				47A5C24A29738E000004F2FA /* FoodLibPage4.swift */,
@@ -285,6 +288,7 @@
 				47A5C24929738DAE0004F2FA /* FoodLibPage3.swift in Sources */,
 				47A5C24729738D990004F2FA /* FoodLibPage2.swift in Sources */,
 				AF5FF2D529734D0A00B8741E /* ContentView.swift in Sources */,
+				AF77A26D29741D6A001B8956 /* DaysFromFoodItem.swift in Sources */,
 				AF5FF2D329734D0A00B8741E /* ProtrackApp.swift in Sources */,
 				AF77A26B2974149C001B8956 /* CountdownsModel.swift in Sources */,
 				47A5C24B29738E000004F2FA /* FoodLibPage4.swift in Sources */,
