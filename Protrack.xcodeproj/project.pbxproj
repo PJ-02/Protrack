@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4713516F29736DEB0044E8A4 /* FoodLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713516E29736DEB0044E8A4 /* FoodLibrary.swift */; };
 		AF5FF2D329734D0A00B8741E /* ProtrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2D229734D0A00B8741E /* ProtrackApp.swift */; };
 		AF5FF2D529734D0A00B8741E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2D429734D0A00B8741E /* ContentView.swift */; };
 		AF5FF2D729734D0C00B8741E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FF2D629734D0C00B8741E /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		AF5FF2E429734D0C00B8741E /* ProtrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2E329734D0C00B8741E /* ProtrackTests.swift */; };
 		AF5FF2EE29734D0C00B8741E /* ProtrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2ED29734D0C00B8741E /* ProtrackUITests.swift */; };
 		AF5FF2F029734D0C00B8741E /* ProtrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2EF29734D0C00B8741E /* ProtrackUITestsLaunchTests.swift */; };
+		AF77A2652973FD33001B8956 /* FoodClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77A2642973FD33001B8956 /* FoodClass.swift */; };
+		AF77A2692974142F001B8956 /* Countdowns.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77A2682974142F001B8956 /* Countdowns.swift */; };
+		AF77A26B2974149C001B8956 /* CountdownsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77A26A2974149C001B8956 /* CountdownsModel.swift */; };
+		AF77A26D29741D6A001B8956 /* DaysFromFoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77A26C29741D6A001B8956 /* DaysFromFoodItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4713516E29736DEB0044E8A4 /* FoodLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLibrary.swift; sourceTree = "<group>"; };
 		AF5FF2CF29734D0A00B8741E /* Protrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5FF2D229734D0A00B8741E /* ProtrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtrackApp.swift; sourceTree = "<group>"; };
 		AF5FF2D429734D0A00B8741E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,10 @@
 		AF5FF2E929734D0C00B8741E /* ProtrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5FF2ED29734D0C00B8741E /* ProtrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtrackUITests.swift; sourceTree = "<group>"; };
 		AF5FF2EF29734D0C00B8741E /* ProtrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF77A2642973FD33001B8956 /* FoodClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClass.swift; sourceTree = "<group>"; };
+		AF77A2682974142F001B8956 /* Countdowns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdowns.swift; sourceTree = "<group>"; };
+		AF77A26A2974149C001B8956 /* CountdownsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownsModel.swift; sourceTree = "<group>"; };
+		AF77A26C29741D6A001B8956 /* DaysFromFoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysFromFoodItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				AF5FF2D229734D0A00B8741E /* ProtrackApp.swift */,
 				AF5FF2D429734D0A00B8741E /* ContentView.swift */,
+				AF77A2682974142F001B8956 /* Countdowns.swift */,
+				AF77A26C29741D6A001B8956 /* DaysFromFoodItem.swift */,
+				AF77A26A2974149C001B8956 /* CountdownsModel.swift */,
+				4713516E29736DEB0044E8A4 /* FoodLibrary.swift */,
+				AF77A2642973FD33001B8956 /* FoodClass.swift */,
 				AF5FF2D629734D0C00B8741E /* Assets.xcassets */,
 				AF5FF2D829734D0C00B8741E /* Preview Content */,
 			);
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF77A2652973FD33001B8956 /* FoodClass.swift in Sources */,
 				AF5FF2D529734D0A00B8741E /* ContentView.swift in Sources */,
+				AF77A26D29741D6A001B8956 /* DaysFromFoodItem.swift in Sources */,
 				AF5FF2D329734D0A00B8741E /* ProtrackApp.swift in Sources */,
+				AF77A26B2974149C001B8956 /* CountdownsModel.swift in Sources */,
+				AF77A2692974142F001B8956 /* Countdowns.swift in Sources */,
+				4713516F29736DEB0044E8A4 /* FoodLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

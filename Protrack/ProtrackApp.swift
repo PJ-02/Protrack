@@ -11,7 +11,8 @@ import SwiftUI
 struct ProtrackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FoodLibrary()
+            Countdowns()
         }
     }
 }
