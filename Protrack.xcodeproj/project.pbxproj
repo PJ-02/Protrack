@@ -19,6 +19,7 @@
 		AF5FF2E429734D0C00B8741E /* ProtrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2E329734D0C00B8741E /* ProtrackTests.swift */; };
 		AF5FF2EE29734D0C00B8741E /* ProtrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2ED29734D0C00B8741E /* ProtrackUITests.swift */; };
 		AF5FF2F029734D0C00B8741E /* ProtrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FF2EF29734D0C00B8741E /* ProtrackUITestsLaunchTests.swift */; };
+		AF77A2652973FD33001B8956 /* FoodClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77A2642973FD33001B8956 /* FoodClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AF5FF2E929734D0C00B8741E /* ProtrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5FF2ED29734D0C00B8741E /* ProtrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtrackUITests.swift; sourceTree = "<group>"; };
 		AF5FF2EF29734D0C00B8741E /* ProtrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF77A2642973FD33001B8956 /* FoodClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				47A5C24629738D980004F2FA /* FoodLibPage2.swift */,
 				47A5C24829738DAE0004F2FA /* FoodLibPage3.swift */,
 				47A5C244297389510004F2FA /* FoodLibPage1.swift */,
+				AF77A2642973FD33001B8956 /* FoodClass.swift */,
 				AF5FF2D629734D0C00B8741E /* Assets.xcassets */,
 				AF5FF2D829734D0C00B8741E /* Preview Content */,
 			);
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF77A2652973FD33001B8956 /* FoodClass.swift in Sources */,
 				47A5C24929738DAE0004F2FA /* FoodLibPage3.swift in Sources */,
 				47A5C24729738D990004F2FA /* FoodLibPage2.swift in Sources */,
 				AF5FF2D529734D0A00B8741E /* ContentView.swift in Sources */,
