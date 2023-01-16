@@ -24,7 +24,7 @@ struct Countdowns: View {
                     Text("Item 1")
                     
                     Spacer(minLength: 1)
-                    
+                
                     Text("\(cm.time)")
                         .alert("Use/Remove Food Item", isPresented: $cm.showingAlert){
                             Button("OK!", role: .cancel){
